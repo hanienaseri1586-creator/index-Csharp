@@ -5,7 +5,7 @@ class Program
     static void Main()
     {
         
-        Console.Write("leghenth rectangele: ");
+        Console.Write("leghenth rectangele ");
         int length = int.Parse(Console.ReadLine());
 
          
