@@ -23,7 +23,7 @@ class Program
         }
         else
         {
-            Console.WriteLine("Eror");
+            Console.WriteLine(" .");
         }
     }
 }

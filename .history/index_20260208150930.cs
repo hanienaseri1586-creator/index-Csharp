@@ -9,7 +9,7 @@ class Program
         int length = int.Parse(Console.ReadLine());
 
          
-        Console.Write("width rectangele: ");
+        Console.Write(" permiter : ");
         int width = int.Parse(Console.ReadLine());
 
 
@@ -18,12 +18,12 @@ class Program
             int area = length * width;
             int perimeter = 2 * (length + width);
 
-            Console.WriteLine("area rectangele: " + area);
-            Console.WriteLine("perimeter rectangele: " + perimeter);
+            Console.WriteLine("مساحت مستطیل: " + area);
+            Console.WriteLine("محیط مستطیل: " + perimeter);
         }
         else
         {
-            Console.WriteLine("Eror");
+            Console.WriteLine("خطا! لطفاً عدد مثبت وارد کنید.");
         }
     }
 }

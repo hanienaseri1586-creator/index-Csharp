@@ -18,12 +18,12 @@ class Program
             int area = length * width;
             int perimeter = 2 * (length + width);
 
-            Console.WriteLine("area rectangele: " + area);
-            Console.WriteLine("perimeter rectangele: " + perimeter);
+            Console.WriteLine("area re: " + area);
+            Console.WriteLine("محیط مستطیل: " + perimeter);
         }
         else
         {
-            Console.WriteLine("Eror");
+            Console.WriteLine("خطا! لطفاً عدد مثبت وارد کنید.");
         }
     }
 }
